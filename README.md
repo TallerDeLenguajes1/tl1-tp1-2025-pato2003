@@ -35,3 +35,12 @@ logs/
 
 # Ignorar el archivo 'ignorados.txt'  
 ignorados.txt  
+```
+
+## Ejercicio 3 Apartado g
+
+### Si resolvió correctamente los apartados 2 y 3 del punto anterior notará que el resultado es el mismo. ¿a qué se debe? ¿Qué obtiene en el punto 4? ¿Es igual a los anteriores? ¿Por qué?
+
+Se debe a que la direccion de la variable esta almacenada en el puntero, es decir, que el contenido del puntero es la direccion de la variable "num1". 
+En el punto cuatro obtengo la direccion de memoria que se le asigno a la variable puntero.
+Es una direccion de memoria distinta a las anteriores debido a que se trata de una variable distinta que tiene su propia direccion de memoria.

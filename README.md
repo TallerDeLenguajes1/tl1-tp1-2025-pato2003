@@ -17,28 +17,6 @@ Es recomendable crear el archivo `.gitignore` al principio de un proyecto, antes
 ## ¿Cómo configurar el archivo .gitignore?  
 
 La configuración del archivo depende de las necesidades específicas del proyecto. A continuación se presentan algunas directrices y ejemplos básicos:  
-
-### Ejemplo de configuraciones comunes en .gitignore  
-
-```gitignore  
-# Ignorar archivos de sistema  
-.DS_Store  
-Thumbs.db  
-
-# Ignorar archivos de configuración locales  
-.env  
-config/secrets.yml  
-
-# Ignorar archivos de log  
-logs/  
-*.log  
-
-# Ignorar dependencias de Node.js  
-node_modules/  
-
-# Ignorar archivos de Python  
-__pycache__/  
-*.pyc  
-
+```
 # Ignorar el archivo 'ignorados.txt'  
 ignorados.txt  
